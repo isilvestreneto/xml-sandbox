@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/livros
+Content-Type: application/xml
+
+<livro>
+    <id>1</id>
+    <titulo>Exemplo de Livro</titulo>
+    <autor>Autor Exemplo</autor>
+    <isbn>123-4567890123</isbn>
+    <dataPublicacao>2023-10-01</dataPublicacao>
+    <preco>29.99</preco>
+</livro>
